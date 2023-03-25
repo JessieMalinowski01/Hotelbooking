@@ -1,0 +1,37 @@
+
+
+
+form {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+  }
+
+  label {
+    display: inline-block;
+    width: 100px;
+    margin-bottom: 10px;
+  }
+
+  input[type="date"],
+  input[type="number"] {
+    padding: 5px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid grey;
+  }
+
+  button[type="submit"] {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: blue;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+  }
+
+  button[type="submit"]:hover {
+    background-color: darkblue;
+  }
